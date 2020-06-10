@@ -4,7 +4,7 @@ from time import sleep
 import traceback
 
 def login():
-    r = praw.Reddit(user_agent='DankBloonyMonkey v0.1', client_id='k-XYexPxpJXjFA', client_secret='a2RJ6y-k4lLNpmdJOSxEVXQPRS0', username='DankBloonyMonkey', password='thedankbloonymonkey')
+    r = praw.Reddit(user_agent='DankBloonyMonkey v0.1', client_id='CLIENT_ID', client_secret='CLIENT_SECRET', username='DankBloonyMonkey', password='PASSWORD')
     return r
 
 r = login()
