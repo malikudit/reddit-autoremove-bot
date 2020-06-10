@@ -1,6 +1,6 @@
 # Reddit Autoremove Bot
 ## Introduction
-This is a simple Python script based on the PRAW API that automatically comments on every new post in a subreddit and asks users to rate the original submission. If the bot comment score reaches a positive threshold, the comment is edited to an approval message; if the bot comment score reaches the negative threshold, the comment can either be deleted for the mods to review the submission, or the original submission can be deleted too (with a few changes in the code.)
+This is a simple Python script based on the Python Reddit API Wrapper (PRAW) that automatically comments on every new post in a subreddit and asks users to rate the original submission. If the bot comment score reaches a positive threshold, the comment is edited to an approval message; if the bot comment score reaches the negative threshold, the comment can either be deleted for the mods to review the submission, or the original submission can be deleted too (with a few changes in the code.)
 
 ## Using the bot
 First, you need to create your own Reddit app from the account which you will be using as the bot. You can do so [here](https://ssl.reddit.com/prefs/apps/) and then obtain your personal client_id and client_secret. Make sure you set the redirect uri to something like http://localhost:8080
